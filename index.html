@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+  HOW TO EDIT THIS FILE
+  - Replace everything written in CAPITALS with your own information.
+  - Text between <!- - and - -> (like this note) is a note to you. It never appears on the site.
+  - Math works anywhere: $x^2$ for inline math, $$\sum_{n=1}^\infty \frac{1}{n^2}$$ for display math.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOUR NAME</title>
+<meta name="description" content="YOUR NAME, YOUR POSITION at YOUR INSTITUTION.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+<script>
+  window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+
+<style>
+  :root {
+    --paper: #ffffff;
+    --ink: #1c2230;
+    --muted: #5b6475;
+    --link: #2a5db0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --paper: #14171d;
+      --ink: #e6e8ec;
+      --muted: #9aa3b2;
+      --link: #8fb2ee;
+    }
+  }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "STIX Two Text", "Times New Roman", Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.65;
+  }
+  main { max-width: 38rem; margin: 0 auto; padding: 5rem 1.5rem 5rem; }
+  p { margin: 0 0 1rem; }
+  a { color: var(--link); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+  .email { color: var(--muted); }
+  h2 { font-size: 1em; font-weight: 600; margin: 3.5rem 0 0.75rem; }
+  main > section:first-child > h2 { margin-top: 0; }
+  .papers { padding-left: 1.25rem; margin: 1.5rem 0 0; }
+  .papers li { margin-bottom: 1.1rem; padding-left: 0.25rem; }
+  .papers .details { color: var(--muted); }
+  footer { margin-top: 4rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <section>
+    <h2>Ander Martin</h2>
+    <!-- Your introduction. Write it however feels natural; this is just a starting point. -->
+    <p class="intro">
+      Hi! I’m Ander :), a PhD student in Mathematics at the University of Edinburgh, advised by Minhyong Kim since 2024. My last name is Martin Iribar, but I go by Martin.
+    </p>
+
+    <p class="email">ander [dot] martin-iribar [at] ed [dot] ac [dot] uk</p>
+  </section>
+
+  <section>
+    <h2>Research</h2>
+    <p>My research is in arithmetic geometry. I am interested in Bloch--Kato Selmer schemes, ideas around the Chabauty--Kim method, and Iwasawa theory.</p>
+
+    <ul class="papers">
+      <!-- To add a paper later: copy everything from <li> to </li>, paste it below, and edit. -->
+      <li>
+        Lie weights for CM curves and unipotent Selmer dimensions.
+        <a href="https://arxiv.org/abs/2610.12013">arXiv</a>
+      </li>
+    </ul>
+  </section>
+
+</main>
+</body>
+</html>
